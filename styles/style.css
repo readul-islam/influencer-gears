@@ -1,0 +1,254 @@
+
+/* -----------------------
+        using goole font poppins
+        ------------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/*------------------------
+        common styles
+        --------------------------*/
+body {
+  font-family: "Poppins", sans-serif;
+  background-color:#aaaaaa ;
+  
+  
+ 
+}
+main {
+  width: 1400px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  color: 
+  #3A3A3A;
+ 
+  position: relative;
+  
+}
+.header{
+    margin: 0 86px 0 120px;
+    padding-top: 87px;
+
+}
+
+/*--------------------------
+        header section style start 
+-------------------- */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2 {
+  
+  font-size: 24px;
+  font-weight: 700;
+ 
+}
+
+.menu ul{
+    display: flex;
+    margin-top: 8px;
+    
+}
+
+.menu li {
+    list-style: none;
+    padding-right: 34px;
+  }
+
+.menu a {
+    color: 
+    #3A3A3A;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight:
+  600 ;
+}
+/* -------------------------
+-------header section end -----------
+--------------------- */
+
+/* ---------------------------
+top scetion start
+--------------------------- */
+.top{
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    
+   
+}
+.prebook-info h1{
+    font-size: 52px;
+    font-weight: 700;
+    
+}
+
+.info p{
+    font-weight: 600;
+font-size: 16px;
+
+}
+button{
+    background: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border-radius: 41px;
+    border:none;
+    margin-top: 16px;
+}
+button a{
+  
+  text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+.image-box{
+  position: relative;
+  margin-right: 45px;
+ 
+  
+}
+.image img{
+    width: 440px;
+height: 410px;
+margin-right: 165px;
+position: absolute;
+top: 0px;
+margin: 30px 33px 31px 2px;
+}
+.circale{
+    width: 475px;
+    height: 475px;
+    border: 3px solid #F1E4FF ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bg-circale{
+  width: 322.3px;
+  height: 322.3px;
+  border: 1px solid  rgba(242, 229, 255, 0.5);
+  background-color: rgba(242, 229, 255, 0.5);
+  border-radius: 161px;
+}
+/* ------------
+top section end ---------------------*/
+
+/* ------------------------------
+product card section start ------------------------ */
+.product-section{
+  margin-top:300px ;
+  
+  
+  
+  
+}
+#center h2{
+  font-weight: 600;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -30px;
+  
+  
+ 
+  
+  
+  
+}
+.product-card{
+display: grid;
+
+grid-template-columns: repeat(3, 1fr);
+grid-row-gap: 30px;
+grid-column-gap: 0px;
+margin: 0 66px 0 66px;
+
+
+}
+.card{
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background-color:#FFFFFF; ;
+  width: 329px;
+height: 476px;
+
+}
+
+
+.card-image img{
+  width: 300px;
+height: 256px;
+border-radius: 5px;
+
+margin: 17px 15px 0 15px;
+}
+.card-details h2{
+  font-size: 28px;
+  font-weight: 500;
+  color: #18191F;
+  margin:17px 0 0 15px ;
+}
+#price{
+  font-size: 24px;
+  margin:17px 0 0 15px ;
+  color: rgba(0, 0, 0, 0.87);
+}
+.card-footer-info{
+  /* width: 196px;
+  height: 61; */
+  margin-top: -15px;
+}
+.rating-star{
+  display: flex;
+  margin: 17px 0 0 15px;
+}
+.star img{
+  width: 16px;
+  height: 16px;
+  
+  background-color:  #ff9c32;
+  
+  
+}
+#rating{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.card-footer-info p{
+  font-weight: bold;
+  font-size: 14px;
+  margin:17px 0 0 15px ;
+  
+}
+.see-more{
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ margin-top: 20px;
+}
+.see-more a{
+  font-size: 16px;
+  font-weight: 900px;
+  text-decoration: none;
+  color: rgba(224, 44, 109, 0.87);
+}
+.see-more  img{
+  width: 16px;
+  height: 16px;
+  color: rgba(224, 44, 109, 0.87);
+  margin-left: 8px;
+  }
+
+  /* media queary */
+  /* for mobile device */
+ 
+  
